@@ -8,16 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
-        <module name="lead-generation-server" />
+        <module name="leadsGenerator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="lead-generation-server" target="11" />
+      <module name="lead-generation-server" target="1.5" />
+      <module name="leads" target="11" />
+      <module name="leadsGenerator" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lead-generation-server" options="" />
+      <module name="leads" options="-parameters" />
+      <module name="leadsGenerator" options="-parameters" />
     </option>
   </component>
 </project>
