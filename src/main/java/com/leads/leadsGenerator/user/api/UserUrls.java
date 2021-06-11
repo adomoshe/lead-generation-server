@@ -10,6 +10,8 @@ public interface UserUrls {
 
     String GET = BASE + UUID;
 
+    String GET_ALL = BASE;
+
     String FIND = BASE;
 
     String CREATE = BASE;

@@ -11,7 +11,7 @@ public interface UserService {
 
     Page<UserDTO> getAllUsers(String query, Pageable pageable);
 
-    List<UserDTO> getAllUsers(String query, Sort sort);
+    List<UserDTO> getAllUsers();
 
     UserDTO getUser(UUID id);
 

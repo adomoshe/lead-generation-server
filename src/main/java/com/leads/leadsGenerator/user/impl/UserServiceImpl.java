@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<UserDTO> getAllUsers(String query, Sort sort) {
+    public List<UserDTO> getAllUsers() {
         return null;
     }
 

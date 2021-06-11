@@ -21,10 +21,8 @@ public class UserUpdateDTO {
 
 
     /**
-     * User's Settings
+     * User's Location
      **/
-
-    private JsonNullable<String> country = JsonNullable.undefined();
 
     private JsonNullable<String> state = JsonNullable.undefined();
 

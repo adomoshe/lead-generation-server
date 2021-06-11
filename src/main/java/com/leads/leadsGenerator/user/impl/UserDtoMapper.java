@@ -30,10 +30,6 @@ public interface UserDtoMapper {
             userRecord.setLastName(dto.getLastName());
         }
 
-        if (dto.getCountry().isPresent()) {
-            userRecord.setCountry(dto.getCountry().get());
-        }
-
         if (dto.getState().isPresent()) {
             userRecord.setState(dto.getState().get());
         }

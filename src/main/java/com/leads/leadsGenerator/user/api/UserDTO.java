@@ -38,8 +38,6 @@ public class UserDTO {
      * User's Settings
      **/
 
-    private String country;
-
     private String state;
 
     private String city;

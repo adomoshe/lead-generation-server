@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="435d5ea3-7a19-4cc4-91cf-0bb3bc72bbf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/MainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leadsGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leadsGenerator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/LeadsGeneratorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/entities/DatedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/entities/DatedEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/entities/EntityWithUUID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserUpdateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserUpdateDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserUrls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/api/UserUrls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserDtoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leads/leadsGenerator/user/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -113,5 +121,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
